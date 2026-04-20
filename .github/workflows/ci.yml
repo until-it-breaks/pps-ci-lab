@@ -9,6 +9,6 @@ jobs:
           distribution: temurin
           java-version: 25
           cache: gradle
-          cache-dependency-path: build.gradle.kts
+          cache-dependency-path: ../build.gradle.kts
       - name: Build
         run: ./gradlew check
